@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Calculadora IMC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    
+
+    <section class="secao1">
+     
+        <h1> Calcule seu IMC </h1>
+        <form name="formImc" id="imcForm" action="#"> 
+            <label for="nome"> Nome </label><br>
+            <input type= "text" id="nome" name="nome"  placeholder="Seu Nome"><br>
+            <label for="altura">Altura</label> <br>
+            <input type="text" id="altura" name="altura"  placeholder="Sua Altura"></input><br>
+            <label for="peso">Peso</label> <br>
+            <input type="text" id="peso" name="peso" placeholder="Seu Peso"></input>
+          </form>
+
+
+        <button type="button" class="btn btn-info" id="botaoCalcular" onclick="calculaIMC()" >Calcular </button>
+      
+
+    </section>
+
+        <script src="script.js"></script>
+  </body>
+</html>
